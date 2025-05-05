@@ -222,4 +222,6 @@ hr{
     .btn:hover {
         background-color: #45a049;
 }
-
+*{
+    padding: 0%;
+}
