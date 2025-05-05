@@ -76,6 +76,7 @@ body {
 h2 {
     color: #9eacba; 
     text-decoration: none;
+    font-size:auto;
 }
 
 nav {
