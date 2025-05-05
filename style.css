@@ -30,7 +30,7 @@ body {
     text-align: center;
     transition: transform 0.3s;
     cursor: pointer;
-    height: 300px;
+    height: auto;
     text-decoration: none;
 }
 
@@ -168,7 +168,7 @@ footer {
 
 .herop{
     width: 600px;
-    height: 220px; 
+    height:auto; 
     background: linear-gradient(to right, rgb(214, 113, 214), #874edc);
     margin-left: 30px;
 }
