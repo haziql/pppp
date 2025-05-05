@@ -1,0 +1,224 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.headd {
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+    background: linear-gradient(to right, purple, #2f0a66);
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    
+}
+
+.card {
+    background:#2f0a66;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(235, 227, 227, 0.1);
+    margin: 15px;
+    width: calc(50% - 30px);
+    text-align: center;
+    transition: transform 0.3s;
+    cursor: pointer;
+    height: 300px;
+    text-decoration: none;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    background-color: #e8523e;
+}
+
+.card img {
+    border-radius: 10px 10px 0 0;
+    width: 100%;
+    height: 235px;
+    object-fit: cover;
+    
+}
+
+.card h2 {
+    margin: 10px 0;
+}
+
+.hero {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.dtimage {
+    width: 90%;
+    height: 90%;
+    max-height: 90%; 
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.description, .info {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px #2f0a66;
+    margin: 20px;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+h2 {
+    color: #9eacba; 
+    text-decoration: none;
+}
+
+nav {
+    margin: 10px 0;
+    text-align: center;
+}
+
+nav a {
+    color: #000306;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: none; 
+}
+
+footer {
+    text-align: left;
+    padding: 10px;
+    background: linear-gradient(to right, purple, #2f0a66);
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+.back-button {
+    background-color: #2f0a66;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    margin: 20px auto;
+    display: block;
+}
+
+.back-button:hover {
+    background-color: #e8523e;
+    transform: scale(1.05);
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+
+.kepala {
+    color: white;
+    padding: 20px;
+    margin-left: 0%;
+    text-align: center;
+    background: linear-gradient(to right, rgb(113, 84, 216), #2f0a66);
+
+}
+.kepalahp{
+    color: #ded6ea;
+    font-size: 60px;
+    text-align: center;
+}
+.badan{
+    background-color: #ffffff;
+}
+.isi { 
+    text-align: left;
+    margin-left: 40px;
+    color: black;
+    font-size: 35px;
+    font-style:bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.ttp{
+    text-align: left;
+    background: linear-gradient(to right, purple, #2f0a66);
+    color: white;
+    margin-top: 30px;
+    width: 100%;
+    height: auto ;
+}
+.hpg{
+    text-align: center;
+}
+.backg{
+    background-image: url ('kel.jpg');
+    background-size: cover;
+}
+
+.herop{
+    width: 600px;
+    height: 220px; 
+    background: linear-gradient(to right, rgb(214, 113, 214), #874edc);
+    margin-left: 30px;
+}
+.h21{
+    margin-top: 20px;
+    margin-left: 20px;
+    color: rgb(3, 66, 48);
+}
+.h22{
+    margin-top: 20px;
+    margin-left: 20px;
+    color: white;
+    text-align: center;
+}
+hr{
+    border: solid purple;
+}
+.pill{
+    text-align: center; 
+    height: 100vh; 
+    margin: 0; 
+    justify-content: center;
+    align-items: center;  
+    background: linear-gradient(to right, purple, #2f0a66);
+}
+.gambarlast{
+    max-width: 300px;
+    height: auto; 
+}
+.pilihan{
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+}
+.last{
+    color: white;
+    text-decoration: none;
+}
+.tombolpilih{
+    background-color: #2f0a66;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    display: inline-block;
+        }
+
+    .btn:hover {
+        background-color: #45a049;
+}
+
